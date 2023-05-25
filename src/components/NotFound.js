@@ -6,7 +6,7 @@ import Asset from './Asset';
 const NotFound = () => {
     return (
       <div className={styles.Margin}>
-        <Asset src={NoResults} message="Sorry, the page you're looking for doesn't exist" />
+        <Asset src={NoResults} message={`Sorry, the page you're looking for doesn't exist`} />
       </div>
     );
   };
